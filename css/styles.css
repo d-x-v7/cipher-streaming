@@ -1,0 +1,224 @@
+/* ROOT STYLES */
+
+html { 
+ 	font-size: 12px; /* Older browsers */
+ 	font-size: calc(1em + 1vw);
+ 	font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+/*@media screen and (min-width: 50em) {
+  html {
+    font-size: 3vw;
+  }
+}*/
+  
+
+/* TYPOGRAPHY */
+
+h1 {
+	font-size: 1.80em;
+	font-weight: 700;
+	line-height: 1em;
+	text-transform: uppercase;
+	padding: 0px;
+}
+
+@media screen and (min-width: 75em) {
+	h1 {
+		font-size: 2em;
+	}
+}
+
+h2 {
+	font-size: 1.40em;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 1.15em;
+	font-weight: 300;
+}
+
+h4 {
+	font-size: .95em;
+	font-weight: 300;
+}
+
+p {
+	font-size: .85em;
+	line-height: 1.50em;
+}
+
+.footerlinks {
+	font-size: .60em;
+	display: block;
+	list-style: none;
+}
+
+.lightoverlay {
+	color: #fff;
+	text-align: center;
+}
+
+.preheading {
+	margin: 0 0 -1em 0;
+	position: relative;
+}
+
+
+/* CONTENT */
+
+
+.intro {
+	height: 100%;
+	width: 100%;
+	background: url('../images/hero-1.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	position: relative;
+
+}
+
+.about-section {
+	height: 100%;
+	width: 100%;
+	background: url('../images/section-2.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	position: relative;
+
+}
+
+.container-center {
+	position: relative;
+	text-align: center;
+}
+
+.container-bottom {
+	position: absolute;
+	bottom: 1em;
+	text-align: center;
+	width: 100%;
+}
+
+.herotext {
+	padding: 8em 0 0 0;
+	position: relative;
+}
+
+.topnav {
+	overflow: hidden;
+	z-index: 1;
+	height: 2.25em;
+	position: absolute;
+	width: 100%;
+}
+
+.topnav a {
+	padding: 0 .75em 0 0;
+	display: block;
+	float: left;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+.logo {
+	height: 1.5em;
+	top: .5em;
+	left: .75em;
+	position: relative;
+	float: left;
+}
+
+.ghost-button {
+	position: relative;
+	padding: .5em .8em .5em .8em;
+	border: .1em solid #fff;
+	border-radius: .3em;
+	font-size: .8em;
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	outline: none;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.ghost-button:hover {
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, .80);
+	-webkit-transition: background-color 200ms linear, color 200ms linear;
+	-moz-transition: background-color 200ms linear, color 200ms linear;
+	-o-transition: background-color 200ms linear, color 200ms linear;
+	transition: background-color 200ms linear, color 200ms linear;
+	color: #2A8ABA;
+}
+
+.down-arrow {
+	position: relative;
+	float: none;
+	height: 3em;
+	text-decoration: none;
+	color: #fff;
+	font-size: .7em;
+}
+
+/* MEDIA QUERIES */
+
+/* Hide all links when screen is less than 600px wide, except for logo */
+@media screen and (max-width: 600px) {
+	.topnav a:not(:first-child) {display:none;}
+	.topnav a.icon {
+		float: right;
+		display: block;
+		position: relative;
+		top: .25em;
+	}
+}
+
+/* This class is added to the topnav with Javascript when the user clicks on the icon */
+@media screen and (max-width: 600px) {
+  .topnavresponsive {
+  	overflow: hidden;
+		z-index: 1;
+		background-color: black;
+		position: absolute;
+		width: 100%;
+  }
+  .topnavresponsive .icon {
+    position: absolute;
+    right: .75em;
+    top: .25em;
+  }
+  .topnavresponsive a {
+    float: none;
+    display: block;
+    height: 2em;
+    padding: .5em 0 .5em .65em;
+    text-align: left;
+    color: #fff;
+		text-decoration: none;
+		font-size: 1em;
+  }
+  .topnavresponsive .mobilelogo {
+  	border-bottom: solid .10em #fff;
+  	padding-left: .1em;
+  }
+
+}
+
+
+
+
+

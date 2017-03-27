@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="16px" viewBox="0 0 30 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Small" transform="translate(-145.000000, -565.000000)" fill="#FFFFFF">
+            <g id="Landing" transform="translate(-1.000000, 0.000000)">
+                <g id="Learn-more" transform="translate(0.000000, 538.000000)">
+                    <path d="M146.436,42.5688 C146.1968,42.328 146,42.1016 146,42.0656 C146,42.0296 149.3752,38.6252 153.5,34.5 L161,27 L168.5,34.5 C172.6248,38.6252 176,42.0312 176,42.0672 C176,42.1408 175.1532,43.0064 175.0812,43.0064 C175.058,43.0064 171.8936,39.8624 168.0516,36.022 C164.2092,32.1796 161.0468,29.0376 161.022,29.0376 C160.9968,29.0376 157.8344,32.1812 153.992,36.022 C150.15,39.864 146.9764,43.0064 146.9392,43.0064 C146.9016,43.0064 146.6752,42.8096 146.436,42.5688 Z" id="Page-1" transform="translate(161.000000, 35.003200) rotate(-180.000000) translate(-161.000000, -35.003200) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
